@@ -56,7 +56,7 @@ st.markdown("""
 
 # Load spaCy and language tool
 nlp = spacy.load("fr_core_news_sm")
-tool = language_tool_python.LanguageToolPublicAPI('fr')
+tool = language_tool_python.LanguageTool("fr")
 PARTICIPLE_RE = re.compile(r".*(é|ée|és|ées|i|is|it|u|us|ut|ant|onné|ée)$", re.IGNORECASE)
 
 # Word lists
